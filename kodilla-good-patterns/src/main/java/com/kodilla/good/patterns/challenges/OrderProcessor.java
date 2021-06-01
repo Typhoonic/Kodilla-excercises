@@ -6,7 +6,7 @@ public class OrderProcessor {
 
     private InformationService informationService;
     private OrderRepository orderRepository;
-    private  OrderService orderService;
+    private OrderService orderService;
     private OrderPayment orderPayment;
 
     public OrderProcessor(InformationService informationService, OrderRepository orderRepository, OrderService orderService, OrderPayment orderPayment) {
@@ -18,15 +18,13 @@ public class OrderProcessor {
 
     public OrderDto process(final User user, final LocalDateTime when, final Product product){
 
-    boolean isOrder = orderService.order(user, when);
-
-    if(isOrder && orderPayment.makePaymentOfBlik(user, product.getPrice()).isPayed()){
-        informationService.inform(user);
-        orderRepository.createOrder(user, when,product);
-        return new OrderDto(user, true);
-    }else{
-        return new OrderDto(user, false);
-    }
+        if(orderService.order(user, when) && orderPayment.makePaymentOfBlik(user, product.getPrice()).isPayed()){
+            informationService.inform(user);
+            orderRepository.createOrder(user, when,product);
+            return new OrderDto(user, true);
+        }else{
+            return new OrderDto(user, false);
+        }
 
     }
 }
