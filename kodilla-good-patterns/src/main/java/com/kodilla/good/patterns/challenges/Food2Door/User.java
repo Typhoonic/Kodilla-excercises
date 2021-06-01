@@ -2,8 +2,8 @@ package com.kodilla.good.patterns.challenges.Food2Door;
 
 public class User {
 
-    String name;
-    String username;
+    private String name;
+    private String username;
 
     public User(String name, String username) {
         this.name = name;

@@ -8,6 +8,7 @@ public class Application {
         RequestRetriever requestRetriever = new RequestRetriever();
         OrderProcess orderProcess = new OrderProcess(new MailService(), new ExtraFoodShop());
         orderProcess.makeOrder(requestRetriever.getUser());
+
     }
 
 }

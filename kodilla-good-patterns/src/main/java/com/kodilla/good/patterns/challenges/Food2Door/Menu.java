@@ -1,9 +1,9 @@
 package com.kodilla.good.patterns.challenges.Food2Door;
 
-import java.util.HashMap;
+import java.util.Map;
 
 public interface Menu {
 
-    HashMap<String, Integer> menu();
+    Map<String, Integer> menu();
 
 }

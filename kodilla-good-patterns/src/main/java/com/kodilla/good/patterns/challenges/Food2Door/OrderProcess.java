@@ -1,13 +1,9 @@
 package com.kodilla.good.patterns.challenges.Food2Door;
 
-
-
-
 public class OrderProcess {
 
     private InformationService informationService;
     private CompanyService companyService;
-
 
     public OrderProcess(InformationService informationService, CompanyService companyService) {
         this.informationService = informationService;
@@ -27,7 +23,5 @@ public class OrderProcess {
             System.out.println("Sorry, something gone wrong.");
 
         }
-
-
     }
 }
