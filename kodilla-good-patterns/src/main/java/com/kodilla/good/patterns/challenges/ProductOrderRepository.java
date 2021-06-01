@@ -4,13 +4,11 @@ import java.time.LocalDateTime;
 
 public class ProductOrderRepository implements OrderRepository{
     @Override
-    public boolean createOrder(User user, LocalDateTime when, PaymentService payment) {
+    public boolean createOrder(User user, LocalDateTime when, Product product) {
 
-        System.out.println("Utworzono bazę danych dla: " + user.getName() + " Dnia: " + when + " Cena: " + payment.makePaymentOfBlik(user, 200).getPrice());
+        System.out.println("Utworzono bazę danych dla: " + user.getName() + "\nProdukt: "+ product.getName() + "\nDzień: " + when + "\nCena: " + product.getPrice());
 
         return true;
-
-
     }
 
 }
