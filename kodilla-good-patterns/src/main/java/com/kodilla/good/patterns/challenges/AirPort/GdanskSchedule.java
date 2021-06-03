@@ -3,7 +3,7 @@ package com.kodilla.good.patterns.challenges.AirPort;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Gdansk implements Cities{
+public class GdanskSchedule implements Cities{
 
     private String name = "Gdansk";
 

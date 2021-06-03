@@ -4,8 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Wroclaw wroclaw = new Wroclaw();
-        Cracow cracow = new Cracow();
+        WroclawSchedule wroclaw = new WroclawSchedule();
+        CracowSchedule cracow = new CracowSchedule();
 
         FlightScheduleProcessor flightScheduleProcessor = new FlightScheduleProcessor(new Flight());
         flightScheduleProcessor.searchFlightFrom(wroclaw.getClass().getName());

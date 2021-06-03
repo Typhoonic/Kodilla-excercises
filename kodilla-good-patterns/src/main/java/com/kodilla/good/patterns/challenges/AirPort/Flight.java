@@ -6,9 +6,9 @@ import java.util.Map;
 
 public class Flight {
 
-    private Cracow cracow = new Cracow();
-    private Gdansk gdansk = new Gdansk();
-    private Wroclaw wroclaw = new Wroclaw();
+    private CracowSchedule cracow = new CracowSchedule();
+    private GdanskSchedule gdansk = new GdanskSchedule();
+    private WroclawSchedule wroclaw = new WroclawSchedule();
 
     public Map<Cities, List<String>> flightFrom(){
 
