@@ -1,4 +1,4 @@
-package com.kodilla.good.patterns.challenges.Allegro;
+package com.kodilla.good.patterns.challenges;
 
 public class PaymentDto {
 

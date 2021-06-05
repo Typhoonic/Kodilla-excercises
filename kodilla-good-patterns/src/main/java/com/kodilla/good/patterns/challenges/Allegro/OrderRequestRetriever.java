@@ -1,4 +1,4 @@
-package com.kodilla.good.patterns.challenges.Allegro;
+package com.kodilla.good.patterns.challenges;
 
 import java.time.Clock;
 import java.time.LocalDateTime;
