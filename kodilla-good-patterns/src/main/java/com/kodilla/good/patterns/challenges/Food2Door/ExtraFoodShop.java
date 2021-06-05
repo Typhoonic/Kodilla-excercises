@@ -4,7 +4,6 @@ import java.util.Map;
 
 public class ExtraFoodShop implements CompanyService{
 
-    @Override
     public boolean process() {
 
         Map<String, Integer> menu = new ExtraFoodShopMenu().menu();
