@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="kodilla" target="11" />
+      <module name="kodilla.kodilla-good-patterns" target="11" />
+      <module name="kodilla.kodilla-good-patterns.main" target="11" />
+      <module name="kodilla.kodilla-good-patterns.test" target="11" />
+      <module name="kodilla.kodilla-patterns" target="11" />
+      <module name="kodilla.kodilla-patterns.main" target="11" />
+      <module name="kodilla.kodilla-patterns.test" target="11" />
+      <module name="kodilla.kodilla-spring" target="11" />
+      <module name="kodilla.kodilla-spring-intro" target="11" />
+      <module name="kodilla.kodilla-spring-intro.main" target="11" />
+      <module name="kodilla.kodilla-spring-intro.test" target="11" />
+      <module name="kodilla.kodilla-spring-web" target="11" />
+      <module name="kodilla.kodilla-spring-web.main" target="11" />
+      <module name="kodilla.kodilla-spring-web.test" target="11" />
+      <module name="kodilla.kodilla-spring.main" target="11" />
+      <module name="kodilla.kodilla-spring.test" target="11" />
+      <module name="kodilla.main" target="11" />
+      <module name="kodilla.test" target="11" />
+      <module name="KodillaSpringApplication" target="11" />
+      <module name="KodillaSpringApplication.main" target="11" />
+      <module name="KodillaSpringApplication.test" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
