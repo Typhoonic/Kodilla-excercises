@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kodilla-spring/kodilla-spring.iml" filepath="$PROJECT_DIR$/kodilla-spring/kodilla-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kodilla-spring-web/kodilla-spring-web.iml" filepath="$PROJECT_DIR$/kodilla-spring-web/kodilla-spring-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-spring-web.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-spring-web.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-spring-web.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-spring-web.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-spring.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-spring.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-spring.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-spring.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-good-patterns/kodilla.kodilla-good-patterns.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-good-patterns/kodilla.kodilla-good-patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-good-patterns/kodilla.kodilla-good-patterns.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-good-patterns/kodilla.kodilla-good-patterns.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-good-patterns/kodilla.kodilla-good-patterns.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-good-patterns/kodilla.kodilla-good-patterns.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-patterns/kodilla.kodilla-patterns.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-patterns/kodilla.kodilla-patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-patterns/kodilla.kodilla-patterns.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-patterns/kodilla.kodilla-patterns.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-patterns/kodilla.kodilla-patterns.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-patterns/kodilla.kodilla-patterns.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-spring/kodilla.kodilla-spring.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-spring/kodilla.kodilla-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-spring-intro/kodilla.kodilla-spring-intro.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-spring-intro/kodilla.kodilla-spring-intro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-spring-intro/kodilla.kodilla-spring-intro.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-spring-intro/kodilla.kodilla-spring-intro.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-spring-intro/kodilla.kodilla-spring-intro.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-spring-intro/kodilla.kodilla-spring-intro.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-spring-web/kodilla.kodilla-spring-web.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-spring-web/kodilla.kodilla-spring-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-spring-web/kodilla.kodilla-spring-web.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-spring-web/kodilla.kodilla-spring-web.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-spring-web/kodilla.kodilla-spring-web.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-spring-web/kodilla.kodilla-spring-web.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-spring/kodilla.kodilla-spring.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-spring/kodilla.kodilla-spring.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-spring/kodilla.kodilla-spring.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-spring/kodilla.kodilla-spring.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla.test.iml" />
+    </modules>
+  </component>
+</project>
