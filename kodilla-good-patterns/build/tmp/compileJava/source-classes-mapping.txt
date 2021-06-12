@@ -30,8 +30,8 @@ com/kodilla/good/patterns/challenges/Allegro/OrderService.java
  com.kodilla.good.patterns.challenges.OrderService
 com/kodilla/good/patterns/challenges/AirPort/GdanskSchedule.java
  com.kodilla.good.patterns.challenges.AirPort.GdanskSchedule
-com/kodilla/good/patterns/challenges/Allegro/Application.java
- com.kodilla.good.patterns.challenges.Application
+com/kodilla/good/patterns/challenges/Allegro/OrderRequest.java
+ com.kodilla.good.patterns.challenges.OrderRequest
 com/kodilla/good/patterns/challenges/Allegro/InformationService.java
  com.kodilla.good.patterns.challenges.InformationService
 com/kodilla/good/patterns/challenges/Allegro/Main.java
@@ -66,5 +66,5 @@ com/kodilla/good/patterns/challenges/Food2Door/User.java
  com.kodilla.good.patterns.challenges.Food2Door.User
 com/kodilla/good/patterns/challenges/Food2Door/Application.java
  com.kodilla.good.patterns.challenges.Food2Door.Application
-com/kodilla/good/patterns/challenges/Allegro/OrderRequest.java
- com.kodilla.good.patterns.challenges.OrderRequest
+com/kodilla/good/patterns/challenges/Allegro/Application.java
+ com.kodilla.good.patterns.challenges.Allegro.Application
