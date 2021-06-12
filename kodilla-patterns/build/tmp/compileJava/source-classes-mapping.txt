@@ -24,3 +24,19 @@ com/kodilla/patterns/prototype/Prototype.java
  com.kodilla.patterns.prototype.Prototype
 com/kodilla/patterns/prototype/library/Book.java
  com.kodilla.patterns.prototype.library.Book
+com/kodilla/patterns/strategy/Customer.java
+ com.kodilla.patterns.strategy.Customer
+com/kodilla/patterns/strategy/BalancedPredictor.java
+ com.kodilla.patterns.strategy.BalancedPredictor
+com/kodilla/patterns/strategy/AgressivePredictor.java
+ com.kodilla.patterns.strategy.AgressivePredictor
+com/kodilla/patterns/strategy/IndividualCustomer.java
+ com.kodilla.patterns.strategy.IndividualCustomer
+com/kodilla/patterns/strategy/BuyPredictor.java
+ com.kodilla.patterns.strategy.BuyPredictor
+com/kodilla/patterns/strategy/ConservativePredictor.java
+ com.kodilla.patterns.strategy.ConservativePredictor
+com/kodilla/patterns/strategy/IndividualYoungCustomer.java
+ com.kodilla.patterns.strategy.IndividualYoungCustomer
+com/kodilla/patterns/strategy/CorporateCustomer.java
+ com.kodilla.patterns.strategy.CorporateCustomer

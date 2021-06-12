@@ -6,3 +6,5 @@ com/kodilla/patterns/singleton/SettingFileEngineTestSuite.java
  com.kodilla.patterns.singleton.SettingFileEngineTestSuite
 com/kodilla/patterns/prototype/BoardTestSuite.java
  com.kodilla.patterns.prototype.BoardTestSuite
+com/kodilla/patterns/strategy/CustomerTestSuite.java
+ com.kodilla.patterns.strategy.CustomerTestSuite

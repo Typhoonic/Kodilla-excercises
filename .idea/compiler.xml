@@ -21,8 +21,26 @@
       <module name="kodilla.main" target="11" />
       <module name="kodilla.test" target="11" />
       <module name="KodillaSpringApplication" target="11" />
+      <module name="KodillaSpringApplication.kodilla-good-patterns" target="11" />
+      <module name="KodillaSpringApplication.kodilla-good-patterns.main" target="11" />
+      <module name="KodillaSpringApplication.kodilla-good-patterns.test" target="11" />
+      <module name="KodillaSpringApplication.kodilla-patterns" target="11" />
+      <module name="KodillaSpringApplication.kodilla-patterns.main" target="11" />
+      <module name="KodillaSpringApplication.kodilla-patterns.test" target="11" />
+      <module name="KodillaSpringApplication.kodilla-spring" target="11" />
+      <module name="KodillaSpringApplication.kodilla-spring-intro" target="11" />
+      <module name="KodillaSpringApplication.kodilla-spring-intro.main" target="11" />
+      <module name="KodillaSpringApplication.kodilla-spring-intro.test" target="11" />
+      <module name="KodillaSpringApplication.kodilla-spring-web" target="11" />
+      <module name="KodillaSpringApplication.kodilla-spring-web.main" target="11" />
+      <module name="KodillaSpringApplication.kodilla-spring-web.test" target="11" />
+      <module name="KodillaSpringApplication.kodilla-spring.main" target="11" />
+      <module name="KodillaSpringApplication.kodilla-spring.test" target="11" />
       <module name="KodillaSpringApplication.main" target="11" />
       <module name="KodillaSpringApplication.test" target="11" />
+      <module name="org.kodilla.KodillaSpringApplication" target="11" />
+      <module name="org.kodilla.KodillaSpringApplication.main" target="11" />
+      <module name="org.kodilla.KodillaSpringApplication.test" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
