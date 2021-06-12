@@ -5,25 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c2a209a-fbc5-4faa-8567-61b2275ad5c4" name="Default Changelist" comment="Revert &quot;Changes ;)&quot;&#10;&#10;This reverts commit 68c0b9c5">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/kodilla-good-patterns/KodillaSpringApplication.kodilla-good-patterns.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/kodilla-good-patterns/KodillaSpringApplication.kodilla-good-patterns.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/kodilla-good-patterns/KodillaSpringApplication.kodilla-good-patterns.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/kodilla-patterns/KodillaSpringApplication.kodilla-patterns.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/kodilla-patterns/KodillaSpringApplication.kodilla-patterns.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/kodilla-patterns/KodillaSpringApplication.kodilla-patterns.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/kodilla-spring-intro/KodillaSpringApplication.kodilla-spring-intro.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/kodilla-spring-intro/KodillaSpringApplication.kodilla-spring-intro.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/kodilla-spring-intro/KodillaSpringApplication.kodilla-spring-intro.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/kodilla-spring-web/KodillaSpringApplication.kodilla-spring-web.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/kodilla-spring-web/KodillaSpringApplication.kodilla-spring-web.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/kodilla-spring-web/KodillaSpringApplication.kodilla-spring-web.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/kodilla-spring/KodillaSpringApplication.kodilla-spring.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/kodilla-spring/KodillaSpringApplication.kodilla-spring.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/kodilla-spring/KodillaSpringApplication.kodilla-spring.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/org.kodilla.KodillaSpringApplication.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/org.kodilla.KodillaSpringApplication.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/org.kodilla.KodillaSpringApplication.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.bin" afterDir="false" />
@@ -34,8 +15,6 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.8/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kodilla-patterns/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kodilla-patterns/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
@@ -108,7 +87,7 @@
       <recent name="com.kodilla.good.patterns.challenges" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CustomerTestSuite.testDefaultInvestingStrategies">
+  <component name="RunManager" selected="JUnit.UserTestSuite.testDefaultSharingStrategies">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -138,22 +117,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoardTestSuite.testToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kodilla.kodilla-patterns.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.patterns.prototype.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.patterns.prototype" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.prototype.BoardTestSuite" />
-      <option name="METHOD_NAME" value="testToString" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CustomerTestSuite.testDefaultInvestingStrategies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KodillaSpringApplication.kodilla-patterns.test" />
       <extension name="coverage">
@@ -170,17 +133,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kodilla.kodilla-patterns.test" />
+    <configuration name="CustomerTestSuite.testIndividualInvestingStrategy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KodillaSpringApplication.kodilla-patterns.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.patterns.prototype.library.*" />
+          <option name="PATTERN" value="com.kodilla.patterns.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.patterns.prototype.library" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.prototype.library.LibraryTestSuite" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.kodilla.patterns.strategy" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.strategy.CustomerTestSuite" />
+      <option name="METHOD_NAME" value="testIndividualInvestingStrategy" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -196,6 +160,22 @@
       <option name="PACKAGE_NAME" value="com.kodilla.patterns.prototype.library" />
       <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.prototype.library.LibraryTestSuite" />
       <option name="METHOD_NAME" value="testGetBooks" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTestSuite.testDefaultSharingStrategies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KodillaSpringApplication.kodilla-patterns.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.patterns.strategy.social.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kodilla.patterns.strategy.social" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.strategy.social.UserTestSuite" />
+      <option name="METHOD_NAME" value="testDefaultSharingStrategies" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -252,11 +232,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserTestSuite.testDefaultSharingStrategies" />
+        <item itemvalue="JUnit.CustomerTestSuite.testIndividualInvestingStrategy" />
         <item itemvalue="JUnit.CustomerTestSuite.testDefaultInvestingStrategies" />
         <item itemvalue="JUnit.BoardTestSuite.testTaskAdd" />
         <item itemvalue="JUnit.LibraryTestSuite.testGetBooks" />
-        <item itemvalue="JUnit.LibraryTestSuite" />
-        <item itemvalue="JUnit.BoardTestSuite.testToString" />
       </list>
     </recent_temporary>
   </component>
@@ -299,7 +279,7 @@
       <workItem from="1623412412226" duration="9000" />
       <workItem from="1623484556904" duration="56000" />
       <workItem from="1623484648526" duration="3334000" />
-      <workItem from="1623507591660" duration="4339000" />
+      <workItem from="1623507591660" duration="5540000" />
     </task>
     <servers />
   </component>
