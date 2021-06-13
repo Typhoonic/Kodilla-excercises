@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0c2a209a-fbc5-4faa-8567-61b2275ad5c4" name="Default Changelist" comment="Revert &quot;Changes ;)&quot;&#10;&#10;This reverts commit 68c0b9c5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/tasks/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/tasks/Task.java" afterDir="false" />
     </list>
     <list id="898fc4d4-9da9-4db7-bb60-283f99400c36" name="Revert &quot;Change ;)&quot;" comment="Revert &quot;Change ;)&quot;&#10;&#10;This reverts commit 68c0b9c5" />
     <option name="SHOW_DIALOG" value="false" />
@@ -264,7 +265,7 @@
       <workItem from="1623484556904" duration="56000" />
       <workItem from="1623484648526" duration="3334000" />
       <workItem from="1623507591660" duration="6025000" />
-      <workItem from="1623585869387" duration="3167000" />
+      <workItem from="1623585869387" duration="5103000" />
     </task>
     <servers />
   </component>
