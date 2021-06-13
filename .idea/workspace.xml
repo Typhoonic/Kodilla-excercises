@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0c2a209a-fbc5-4faa-8567-61b2275ad5c4" name="Default Changelist" comment="Revert &quot;Changes ;)&quot;&#10;&#10;This reverts commit 68c0b9c5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/tasks/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/tasks/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <list id="898fc4d4-9da9-4db7-bb60-283f99400c36" name="Revert &quot;Change ;)&quot;" comment="Revert &quot;Change ;)&quot;&#10;&#10;This reverts commit 68c0b9c5" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,14 +76,16 @@
       <recent name="com.kodilla.good.patterns.challenges" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ShapeFactoryTestSuite">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TaskFactoryTestSuite">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,48 +121,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TaskFactoryTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KodillaSpringApplication.kodilla-patterns.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.patterns.strategy.social.*" />
+          <option name="PATTERN" value="com.kodilla.patterns.factory.tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.patterns.strategy.social" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.strategy.social.UserTestSuite" />
+      <option name="PACKAGE_NAME" value="com.kodilla.patterns.factory.tasks" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.factory.tasks.TaskFactoryTestSuite" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTestSuite.testDefaultSharingStrategies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TaskFactoryTestSuite.testPaintingTaskFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KodillaSpringApplication.kodilla-patterns.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.patterns.strategy.social.*" />
+          <option name="PATTERN" value="com.kodilla.patterns.factory.tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.patterns.strategy.social" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.strategy.social.UserTestSuite" />
-      <option name="METHOD_NAME" value="testDefaultSharingStrategies" />
+      <option name="PACKAGE_NAME" value="com.kodilla.patterns.factory.tasks" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.factory.tasks.TaskFactoryTestSuite" />
+      <option name="METHOD_NAME" value="testPaintingTaskFactory" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTestSuite.testIndividualSharingStrategy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TaskFactoryTestSuite.testShoppingTaskFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KodillaSpringApplication.kodilla-patterns.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.patterns.strategy.social.*" />
+          <option name="PATTERN" value="com.kodilla.patterns.factory.tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.patterns.strategy.social" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.strategy.social.UserTestSuite" />
-      <option name="METHOD_NAME" value="testIndividualSharingStrategy" />
+      <option name="PACKAGE_NAME" value="com.kodilla.patterns.factory.tasks" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.factory.tasks.TaskFactoryTestSuite" />
+      <option name="METHOD_NAME" value="testShoppingTaskFactory" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -217,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TaskFactoryTestSuite" />
+        <item itemvalue="JUnit.TaskFactoryTestSuite.testPaintingTaskFactory" />
+        <item itemvalue="JUnit.TaskFactoryTestSuite.testShoppingTaskFactory" />
         <item itemvalue="JUnit.ShapeFactoryTestSuite" />
         <item itemvalue="JUnit.ShapeFactoryTestSuite.testFactoryCircle" />
-        <item itemvalue="JUnit.UserTestSuite" />
-        <item itemvalue="JUnit.UserTestSuite.testIndividualSharingStrategy" />
-        <item itemvalue="JUnit.UserTestSuite.testDefaultSharingStrategies" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +267,8 @@
       <workItem from="1623484556904" duration="56000" />
       <workItem from="1623484648526" duration="3334000" />
       <workItem from="1623507591660" duration="6025000" />
-      <workItem from="1623585869387" duration="5103000" />
+      <workItem from="1623585869387" duration="6826000" />
+      <workItem from="1623618284406" duration="210000" />
     </task>
     <servers />
   </component>

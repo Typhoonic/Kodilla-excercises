@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.patterns.factory.tasks.TaskFactoryTestSuite" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-06-13T21:08:34" hostname="DESKTOP-I1NTMC4" time="0.031">
+  <properties/>
+  <testcase name="testPaintingTaskFactory()" classname="com.kodilla.patterns.factory.tasks.TaskFactoryTestSuite" time="0.022"/>
+  <testcase name="testShoppingTaskFactory()" classname="com.kodilla.patterns.factory.tasks.TaskFactoryTestSuite" time="0.004"/>
+  <testcase name="DrivingTaskFactory()" classname="com.kodilla.patterns.factory.tasks.TaskFactoryTestSuite" time="0.003"/>
+  <system-out><![CDATA[I execute task: painting task... With Color: red I paint: wall.
+I executed task: shopping task... I bought sugar With price: 3.5pln.
+I execute task: driving task... To: Cracow Using: car.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
