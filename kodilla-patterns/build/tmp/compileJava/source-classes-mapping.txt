@@ -56,3 +56,13 @@ com/kodilla/patterns/strategy/social/YGeneration.java
  com.kodilla.patterns.strategy.social.YGeneration
 com/kodilla/patterns/strategy/social/ZGeneration.java
  com.kodilla.patterns.strategy.social.ZGeneration
+com/kodilla/patterns/factory/Square.java
+ com.kodilla.patterns.factory.Square
+com/kodilla/patterns/factory/Rectangle.java
+ com.kodilla.patterns.factory.Rectangle
+com/kodilla/patterns/factory/Shape.java
+ com.kodilla.patterns.factory.Shape
+com/kodilla/patterns/factory/Circle.java
+ com.kodilla.patterns.factory.Circle
+com/kodilla/patterns/factory/ShapeFactory.java
+ com.kodilla.patterns.factory.ShapeFactory

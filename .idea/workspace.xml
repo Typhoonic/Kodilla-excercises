@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c2a209a-fbc5-4faa-8567-61b2275ad5c4" name="Default Changelist" comment="Revert &quot;Changes ;)&quot;&#10;&#10;This reverts commit 68c0b9c5">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
     </list>
     <list id="898fc4d4-9da9-4db7-bb60-283f99400c36" name="Revert &quot;Change ;)&quot;" comment="Revert &quot;Change ;)&quot;&#10;&#10;This reverts commit 68c0b9c5" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,80 +75,60 @@
       <recent name="com.kodilla.good.patterns.challenges" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserTestSuite.testDefaultSharingStrategies">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ShapeFactoryTestSuite">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoardTestSuite.testTaskAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kodilla-spring.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.spring.portfolio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.spring.portfolio" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.spring.portfolio.BoardTestSuite" />
-      <option name="METHOD_NAME" value="testTaskAdd" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomerTestSuite.testDefaultInvestingStrategies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShapeFactoryTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KodillaSpringApplication.kodilla-patterns.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.patterns.strategy.*" />
+          <option name="PATTERN" value="com.kodilla.patterns.factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.patterns.strategy" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.strategy.CustomerTestSuite" />
-      <option name="METHOD_NAME" value="testDefaultInvestingStrategies" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.kodilla.patterns.factory" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.factory.ShapeFactoryTestSuite" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerTestSuite.testIndividualInvestingStrategy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShapeFactoryTestSuite.testFactoryCircle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KodillaSpringApplication.kodilla-patterns.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.patterns.strategy.*" />
+          <option name="PATTERN" value="com.kodilla.patterns.factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.patterns.strategy" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.strategy.CustomerTestSuite" />
-      <option name="METHOD_NAME" value="testIndividualInvestingStrategy" />
+      <option name="PACKAGE_NAME" value="com.kodilla.patterns.factory" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.factory.ShapeFactoryTestSuite" />
+      <option name="METHOD_NAME" value="testFactoryCircle" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryTestSuite.testGetBooks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kodilla.kodilla-patterns.test" />
+    <configuration name="UserTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KodillaSpringApplication.kodilla-patterns.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.patterns.prototype.library.*" />
+          <option name="PATTERN" value="com.kodilla.patterns.strategy.social.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.patterns.prototype.library" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.prototype.library.LibraryTestSuite" />
-      <option name="METHOD_NAME" value="testGetBooks" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.kodilla.patterns.strategy.social" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.strategy.social.UserTestSuite" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -176,6 +144,22 @@
       <option name="PACKAGE_NAME" value="com.kodilla.patterns.strategy.social" />
       <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.strategy.social.UserTestSuite" />
       <option name="METHOD_NAME" value="testDefaultSharingStrategies" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTestSuite.testIndividualSharingStrategy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KodillaSpringApplication.kodilla-patterns.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.patterns.strategy.social.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kodilla.patterns.strategy.social" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.strategy.social.UserTestSuite" />
+      <option name="METHOD_NAME" value="testIndividualSharingStrategy" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -232,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShapeFactoryTestSuite" />
+        <item itemvalue="JUnit.ShapeFactoryTestSuite.testFactoryCircle" />
+        <item itemvalue="JUnit.UserTestSuite" />
+        <item itemvalue="JUnit.UserTestSuite.testIndividualSharingStrategy" />
         <item itemvalue="JUnit.UserTestSuite.testDefaultSharingStrategies" />
-        <item itemvalue="JUnit.CustomerTestSuite.testIndividualInvestingStrategy" />
-        <item itemvalue="JUnit.CustomerTestSuite.testDefaultInvestingStrategies" />
-        <item itemvalue="JUnit.BoardTestSuite.testTaskAdd" />
-        <item itemvalue="JUnit.LibraryTestSuite.testGetBooks" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +263,8 @@
       <workItem from="1623412412226" duration="9000" />
       <workItem from="1623484556904" duration="56000" />
       <workItem from="1623484648526" duration="3334000" />
-      <workItem from="1623507591660" duration="5540000" />
+      <workItem from="1623507591660" duration="6025000" />
+      <workItem from="1623585869387" duration="3167000" />
     </task>
     <servers />
   </component>
