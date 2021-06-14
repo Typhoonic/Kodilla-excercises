@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.patterns.strategy.social.UserTestSuite" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-06-13T21:08:34" hostname="DESKTOP-I1NTMC4" time="0.004">
+<testsuite name="com.kodilla.patterns.strategy.social.UserTestSuite" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-06-14T14:01:53" hostname="DESKTOP-I1NTMC4" time="0.006">
   <properties/>
   <testcase name="testDefaultSharingStrategies()" classname="com.kodilla.patterns.strategy.social.UserTestSuite" time="0.003"/>
-  <testcase name="testIndividualSharingStrategy()" classname="com.kodilla.patterns.strategy.social.UserTestSuite" time="0.001"/>
+  <testcase name="testIndividualSharingStrategy()" classname="com.kodilla.patterns.strategy.social.UserTestSuite" time="0.003"/>
   <system-out><![CDATA[Kamil share post on: Facebook
 Mateusz share post on: Twitter
 Andrzej share post on: Snapchat

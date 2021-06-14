@@ -14,3 +14,7 @@ com/kodilla/patterns/strategy/CustomerTestSuite.java
  com.kodilla.patterns.strategy.CustomerTestSuite
 com/kodilla/patterns/prototype/BoardTestSuite.java
  com.kodilla.patterns.prototype.BoardTestSuite
+com/kodilla/patterns/builder/checkers/CheckersTestSuite.java
+ com.kodilla.patterns.builder.checkers.CheckersTestSuite
+com/kodilla/patterns/builder/pizza/PizzaTestSuite.java
+ com.kodilla.patterns.builder.pizza.PizzaTestSuite

@@ -76,3 +76,19 @@ com/kodilla/patterns/factory/Circle.java
  com.kodilla.patterns.factory.Circle
 com/kodilla/patterns/prototype/Prototype.java
  com.kodilla.patterns.prototype.Prototype
+com/kodilla/patterns/builder/pizza/Pizza.java
+ com.kodilla.patterns.builder.pizza.Pizza
+ com.kodilla.patterns.builder.pizza.Pizza$PizzaBuilder
+com/kodilla/patterns/builder/checkers/Pawn.java
+ com.kodilla.patterns.builder.checkers.Pawn
+com/kodilla/patterns/builder/checkers/Queen.java
+ com.kodilla.patterns.builder.checkers.Queen
+com/kodilla/patterns/builder/checkers/Checkers.java
+ com.kodilla.patterns.builder.checkers.Checkers
+ com.kodilla.patterns.builder.checkers.Checkers$CheckersBuilder
+com/kodilla/patterns/builder/checkers/Figure.java
+ com.kodilla.patterns.builder.checkers.Figure
+com/kodilla/patterns/builder/checkers/Board.java
+ com.kodilla.patterns.builder.checkers.Board
+com/kodilla/patterns/builder/checkers/FigureFactory.java
+ com.kodilla.patterns.builder.checkers.FigureFactory

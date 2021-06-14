@@ -20,6 +20,24 @@
       <module name="kodilla.kodilla-spring.test" target="11" />
       <module name="kodilla.main" target="11" />
       <module name="kodilla.test" target="11" />
+      <module name="KodillaMain" target="11" />
+      <module name="KodillaMain.kodilla-good-patterns" target="11" />
+      <module name="KodillaMain.kodilla-good-patterns.main" target="11" />
+      <module name="KodillaMain.kodilla-good-patterns.test" target="11" />
+      <module name="KodillaMain.kodilla-patterns" target="11" />
+      <module name="KodillaMain.kodilla-patterns.main" target="11" />
+      <module name="KodillaMain.kodilla-patterns.test" target="11" />
+      <module name="KodillaMain.kodilla-spring" target="11" />
+      <module name="KodillaMain.kodilla-spring-intro" target="11" />
+      <module name="KodillaMain.kodilla-spring-intro.main" target="11" />
+      <module name="KodillaMain.kodilla-spring-intro.test" target="11" />
+      <module name="KodillaMain.kodilla-spring-web" target="11" />
+      <module name="KodillaMain.kodilla-spring-web.main" target="11" />
+      <module name="KodillaMain.kodilla-spring-web.test" target="11" />
+      <module name="KodillaMain.kodilla-spring.main" target="11" />
+      <module name="KodillaMain.kodilla-spring.test" target="11" />
+      <module name="KodillaMain.main" target="11" />
+      <module name="KodillaMain.test" target="11" />
       <module name="KodillaSpringApplication" target="11" />
       <module name="KodillaSpringApplication.kodilla-good-patterns" target="11" />
       <module name="KodillaSpringApplication.kodilla-good-patterns.main" target="11" />
