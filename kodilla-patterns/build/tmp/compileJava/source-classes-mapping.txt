@@ -92,3 +92,12 @@ com/kodilla/patterns/builder/checkers/Board.java
  com.kodilla.patterns.builder.checkers.Board
 com/kodilla/patterns/builder/checkers/FigureFactory.java
  com.kodilla.patterns.builder.checkers.FigureFactory
+com/kodilla/patterns/builder/bigmac/Sauce.java
+ com.kodilla.patterns.builder.bigmac.Sauce
+com/kodilla/patterns/builder/bigmac/Bun.java
+ com.kodilla.patterns.builder.bigmac.Bun
+com/kodilla/patterns/builder/bigmac/Ingredients.java
+ com.kodilla.patterns.builder.bigmac.Ingredients
+com/kodilla/patterns/builder/bigmac/BigMac.java
+ com.kodilla.patterns.builder.bigmac.BigMac
+ com.kodilla.patterns.builder.bigmac.BigMac$BigMacBuilder

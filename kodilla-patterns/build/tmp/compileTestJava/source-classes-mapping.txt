@@ -18,3 +18,5 @@ com/kodilla/patterns/builder/checkers/CheckersTestSuite.java
  com.kodilla.patterns.builder.checkers.CheckersTestSuite
 com/kodilla/patterns/builder/pizza/PizzaTestSuite.java
  com.kodilla.patterns.builder.pizza.PizzaTestSuite
+com/kodilla/patterns/builder/bigmac/BigMacTestSuite.java
+ com.kodilla.patterns.builder.bigmac.BigMacTestSuite
