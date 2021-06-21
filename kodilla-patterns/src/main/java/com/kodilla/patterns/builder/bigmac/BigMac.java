@@ -21,9 +21,10 @@ public class BigMac {
         private String bun;
         private int burgers;
         private String sauce;
-        private List<String> ingredients = new ArrayList<>();
+        private final List<String> ingredients = new ArrayList<>();
 
         public BigMacBuilder bun(String typeOfBun){
+
             switch (typeOfBun){
                 case Bun.SESAME:
                     this.bun = Bun.SESAME;
@@ -42,6 +43,7 @@ public class BigMac {
         }
 
         public BigMacBuilder sauce(String typeOfSauce){
+
             switch (typeOfSauce){
                 case Sauce.STANDARD:
                     this.sauce = Sauce.STANDARD;

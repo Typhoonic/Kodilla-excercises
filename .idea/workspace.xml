@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0c2a209a-fbc5-4faa-8567-61b2275ad5c4" name="Default Changelist" comment="Revert &quot;Changes ;)&quot;&#10;&#10;This reverts commit 68c0b9c5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/builder/bigmac/BigMac.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/builder/bigmac/BigMac.java" afterDir="false" />
     </list>
     <list id="898fc4d4-9da9-4db7-bb60-283f99400c36" name="Revert &quot;Change ;)&quot;" comment="Revert &quot;Change ;)&quot;&#10;&#10;This reverts commit 68c0b9c5" />
     <option name="SHOW_DIALOG" value="false" />
@@ -279,7 +280,10 @@
       <workItem from="1623861521801" duration="1905000" />
       <workItem from="1623953124389" duration="1134000" />
       <workItem from="1624038051578" duration="5246000" />
-      <workItem from="1624108722854" duration="3756000" />
+      <workItem from="1624108722854" duration="4620000" />
+      <workItem from="1624180954756" duration="596000" />
+      <workItem from="1624197015792" duration="1038000" />
+      <workItem from="1624257576303" duration="1330000" />
     </task>
     <servers />
   </component>
