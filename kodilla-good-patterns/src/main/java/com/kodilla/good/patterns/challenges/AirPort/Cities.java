@@ -8,4 +8,5 @@ public interface Cities {
     List<String> makeFlightScheduleTo();
     List<String> makeFlightScheduleThrough();
 
+
 }
