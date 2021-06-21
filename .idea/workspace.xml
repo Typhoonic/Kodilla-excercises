@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c2a209a-fbc5-4faa-8567-61b2275ad5c4" name="Default Changelist" comment="Revert &quot;Changes ;)&quot;&#10;&#10;This reverts commit 68c0b9c5">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/builder/bigmac/BigMac.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/builder/bigmac/BigMac.java" afterDir="false" />
     </list>
@@ -283,7 +284,7 @@
       <workItem from="1624108722854" duration="4620000" />
       <workItem from="1624180954756" duration="596000" />
       <workItem from="1624197015792" duration="1038000" />
-      <workItem from="1624257576303" duration="1330000" />
+      <workItem from="1624257576303" duration="1706000" />
     </task>
     <servers />
   </component>
