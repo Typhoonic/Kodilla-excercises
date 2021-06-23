@@ -1,0 +1,2 @@
+com/kodilla/hibernate/KodillaHibernateApplicationTests.java
+ com.kodilla.hibernate.KodillaHibernateApplicationTests

@@ -1,2 +1,0 @@
-com/kodilla/jdbc/DbManagerTestSuite.java
- com.kodilla.jdbc.DbManagerTestSuite
