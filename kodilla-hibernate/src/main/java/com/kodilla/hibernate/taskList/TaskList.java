@@ -2,10 +2,7 @@ package com.kodilla.hibernate.taskList;
 
 import com.sun.istack.NotNull;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "TASKLISTS")
@@ -23,6 +20,7 @@ public class TaskList {
     }
 
     @Id
+    @GeneratedValue
     @NotNull
     @Column(name = "ID", unique = true)
     public int getId() {

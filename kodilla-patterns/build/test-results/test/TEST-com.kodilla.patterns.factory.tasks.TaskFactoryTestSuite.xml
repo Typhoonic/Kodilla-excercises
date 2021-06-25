@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.patterns.factory.tasks.TaskFactoryTestSuite" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-06-25T08:11:01" hostname="DESKTOP-I1NTMC4" time="0.009">
+<testsuite name="com.kodilla.patterns.factory.tasks.TaskFactoryTestSuite" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-06-25T22:09:03" hostname="DESKTOP-I1NTMC4" time="0.011">
   <properties/>
-  <testcase name="testPaintingTaskFactory()" classname="com.kodilla.patterns.factory.tasks.TaskFactoryTestSuite" time="0.002"/>
+  <testcase name="testPaintingTaskFactory()" classname="com.kodilla.patterns.factory.tasks.TaskFactoryTestSuite" time="0.004"/>
   <testcase name="testShoppingTaskFactory()" classname="com.kodilla.patterns.factory.tasks.TaskFactoryTestSuite" time="0.004"/>
   <testcase name="DrivingTaskFactory()" classname="com.kodilla.patterns.factory.tasks.TaskFactoryTestSuite" time="0.001"/>
   <system-out><![CDATA[I execute task: painting task... With Color: red I paint: wall.
