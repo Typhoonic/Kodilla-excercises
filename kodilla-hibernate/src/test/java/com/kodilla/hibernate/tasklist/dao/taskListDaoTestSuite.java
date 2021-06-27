@@ -29,10 +29,13 @@ public class taskListDaoTestSuite {
         //Given
         Task task = new Task("Test: Hibernate Learning", 14);
         Task task2 = new Task("Test: Write some entities", 3);
+
         TaskFinancialDetails tfd = new TaskFinancialDetails(new BigDecimal(20), false);
         TaskFinancialDetails tfd2 = new TaskFinancialDetails(new BigDecimal(10), false);
+
         task.setTaskFinancialDetails(tfd);
         task2.setTaskFinancialDetails(tfd2);
+
         TaskList taskList = new TaskList(LISTNAME, "ToDoTasks");
         taskList.getTasks().add(task);
         taskList.getTasks().add(task2);
