@@ -4,3 +4,5 @@ com/kodilla/hibernate/tasklist/dao/taskListDaoTestSuite.java
  com.kodilla.hibernate.tasklist.dao.taskListDaoTestSuite
 com/kodilla/hibernate/task/dao/TaskDaoTestSuite.java
  com.kodilla.hibernate.task.dao.TaskDaoTestSuite
+com/kodilla/hibernate/task/dao/TaskFinancialDetailsDaoTestSuite.java
+ com.kodilla.hibernate.task.dao.TaskFinancialDetailsDaoTestSuite

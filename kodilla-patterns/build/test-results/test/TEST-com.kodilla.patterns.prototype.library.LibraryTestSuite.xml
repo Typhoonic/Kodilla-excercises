@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.patterns.prototype.library.LibraryTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-25T22:09:04" hostname="DESKTOP-I1NTMC4" time="0.005">
+<testsuite name="com.kodilla.patterns.prototype.library.LibraryTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-27T08:35:18" hostname="DESKTOP-I1NTMC4" time="0.006">
   <properties/>
-  <testcase name="testGetBooks()" classname="com.kodilla.patterns.prototype.library.LibraryTestSuite" time="0.005"/>
+  <testcase name="testGetBooks()" classname="com.kodilla.patterns.prototype.library.LibraryTestSuite" time="0.006"/>
   <system-out><![CDATA[Library [Main Cracow Library]
 Book: Lords of the ring  ---Author:J.R.R.Tolkien  ---Date Of Publication: 1954-07-29
 Book: Harry Potter...  ---Author:J.K.Rowling  ---Date Of Publication: 1997-06-26
@@ -11,9 +11,9 @@ Book: Lords of the ring  ---Author:J.R.R.Tolkien  ---Date Of Publication: 1954-0
 Book: Harry Potter...  ---Author:J.K.Rowling  ---Date Of Publication: 1997-06-26
 
 Library [Main Katowice Library]
-Book: Hobbit  ---Author:J.R.R.Tolkien  ---Date Of Publication: 1937-09-21
 Book: Lords of the ring  ---Author:J.R.R.Tolkien  ---Date Of Publication: 1954-07-29
 Book: Harry Potter...  ---Author:J.K.Rowling  ---Date Of Publication: 1997-06-26
+Book: Hobbit  ---Author:J.R.R.Tolkien  ---Date Of Publication: 1937-09-21
 
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
