@@ -23,6 +23,7 @@
 .idea
 build/*
 build/**
+**/build/
 gradlew
 gradlew.bat
 gradle/wrapper/gradle-wrapper.jar

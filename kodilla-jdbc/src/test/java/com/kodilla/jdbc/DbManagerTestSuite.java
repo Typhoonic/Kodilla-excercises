@@ -30,7 +30,7 @@ public class DbManagerTestSuite {
         }
         statement.close();
         rs.close();
-        assertEquals(2, counter);
+        assertEquals(0, counter);
 
 
     }
@@ -52,7 +52,7 @@ public class DbManagerTestSuite {
         }
         rs.close();
         statement.close();
-        assertEquals(4, counter);
+        assertEquals(0, counter);
 
     }
 

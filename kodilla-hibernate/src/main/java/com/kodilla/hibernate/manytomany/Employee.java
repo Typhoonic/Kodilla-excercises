@@ -5,6 +5,10 @@ import com.sun.istack.NotNull;
 import javax.persistence.*;
 import java.util.*;
 
+@NamedQuery(
+        name = "Employee.findWithLastName",
+        query = "FROM Employee WHERE lastname = :LASTNAME"
+)
 @Entity
 @Table(name = "EMPLOYEES")
 public class Employee {

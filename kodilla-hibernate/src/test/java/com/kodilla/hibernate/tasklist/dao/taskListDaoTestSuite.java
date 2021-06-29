@@ -6,7 +6,6 @@ import com.kodilla.hibernate.taskList.TaskList;
 import com.kodilla.hibernate.taskList.dao.TaskListDao;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.kafka.KafkaProperties;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.math.BigDecimal;
@@ -39,6 +38,9 @@ public class taskListDaoTestSuite {
         TaskList taskList = new TaskList(LISTNAME, "ToDoTasks");
         taskList.getTasks().add(task);
         taskList.getTasks().add(task2);
+        //taskList.setId(1);
+        //task.setId(1);
+        //task2.setId(2);
         task.setTaskList(taskList);
         task2.setTaskList(taskList);
         //When

@@ -5,6 +5,11 @@ import com.sun.istack.NotNull;
 import javax.persistence.*;
 import java.util.*;
 
+@NamedNativeQuery(
+        name = "Company.findCompanyWithThreeChars",
+        query = "SELECT * FROM COMPANIES WHERE company_name LIKE :CHARS",
+        resultClass = Company.class
+)
 @Entity
 @Table(name = "COMPANIES")
 public class Company {
