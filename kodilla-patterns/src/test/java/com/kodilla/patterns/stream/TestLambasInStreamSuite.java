@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 import java.util.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class TestLambasInStreamSuite {
 
@@ -106,6 +107,7 @@ public class TestLambasInStreamSuite {
         Integer result = Main.getAverageJava8(numbers);
         //then
         assertEquals(expected, result);
+        assertTrue(true);
     }
 
 
