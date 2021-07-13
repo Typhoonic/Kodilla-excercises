@@ -108,6 +108,8 @@ public class TestLambasInStreamSuite {
         //then
         assertEquals(expected, result);
         assertTrue(false);
+        assertTrue(true);
+ 
     }
 
 
