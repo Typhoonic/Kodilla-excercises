@@ -107,9 +107,7 @@ public class TestLambasInStreamSuite {
         Integer result = Main.getAverageJava8(numbers);
         //then
         assertEquals(expected, result);
-        assertTrue(false);
         assertTrue(true);
- 
     }
 
 

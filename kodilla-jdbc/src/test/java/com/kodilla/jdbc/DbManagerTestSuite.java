@@ -1,4 +1,4 @@
-package com.kodilla.jdbc;
+/*package com.kodilla.jdbc;
 
 import org.junit.jupiter.api.Test;
 
@@ -68,3 +68,4 @@ public class DbManagerTestSuite {
 
     }
 }
+*/
