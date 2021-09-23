@@ -1,0 +1,26 @@
+com/kodilla/patterns/factory/ShapeFactoryTestSuite.java
+ com.kodilla.patterns.factory.ShapeFactoryTestSuite
+com/kodilla/patterns/stream/TestLambasInStreamSuite.java
+ com.kodilla.patterns.stream.TestLambasInStreamSuite
+com/kodilla/patterns/factory/tasks/TaskFactoryTestSuite.java
+ com.kodilla.patterns.factory.tasks.TaskFactoryTestSuite
+com/kodilla/patterns/singleton/SettingFileEngineTestSuite.java
+ com.kodilla.patterns.singleton.SettingFileEngineTestSuite
+com/kodilla/patterns/prototype/BoardTestSuite.java
+ com.kodilla.patterns.prototype.BoardTestSuite
+com/kodilla/patterns/stream/Main.java
+ com.kodilla.patterns.stream.Main
+com/kodilla/patterns/singleton/LoggerTestSuite.java
+ com.kodilla.patterns.singleton.LoggerTestSuite
+com/kodilla/patterns/strategy/social/UserTestSuite.java
+ com.kodilla.patterns.strategy.social.UserTestSuite
+com/kodilla/patterns/builder/bigmac/BigMacTestSuite.java
+ com.kodilla.patterns.builder.bigmac.BigMacTestSuite
+com/kodilla/patterns/builder/checkers/CheckersTestSuite.java
+ com.kodilla.patterns.builder.checkers.CheckersTestSuite
+com/kodilla/patterns/prototype/library/LibraryTestSuite.java
+ com.kodilla.patterns.prototype.library.LibraryTestSuite
+com/kodilla/patterns/strategy/CustomerTestSuite.java
+ com.kodilla.patterns.strategy.CustomerTestSuite
+com/kodilla/patterns/builder/pizza/PizzaTestSuite.java
+ com.kodilla.patterns.builder.pizza.PizzaTestSuite
