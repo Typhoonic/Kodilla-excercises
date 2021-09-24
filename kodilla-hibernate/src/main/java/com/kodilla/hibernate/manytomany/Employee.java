@@ -9,6 +9,11 @@ import java.util.*;
         name = "Employee.findWithLastName",
         query = "FROM Employee WHERE lastname = :LASTNAME"
 )
+@NamedNativeQuery(
+        name = "Employee.findByFragment",
+        query = "SELECT * FROM EMPLOYEES WHERE lastname LIKE :ARG",
+        resultClass = Employee.class
+)
 @Entity
 @Table(name = "EMPLOYEES")
 public class Employee {
