@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.patterns.factory.tasks.TaskFactoryTestSuite" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-09-23T18:22:51" hostname="DESKTOP-I1NTMC4" time="0.01">
+<testsuite name="com.kodilla.patterns.factory.tasks.TaskFactoryTestSuite" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-09-23T18:37:38" hostname="DESKTOP-I1NTMC4" time="0.01">
   <properties/>
   <testcase name="testPaintingTaskFactory()" classname="com.kodilla.patterns.factory.tasks.TaskFactoryTestSuite" time="0.003"/>
   <testcase name="testShoppingTaskFactory()" classname="com.kodilla.patterns.factory.tasks.TaskFactoryTestSuite" time="0.004"/>

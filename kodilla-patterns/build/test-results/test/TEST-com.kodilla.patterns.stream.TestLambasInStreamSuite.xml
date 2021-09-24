@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.patterns.stream.TestLambasInStreamSuite" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-09-23T18:22:51" hostname="DESKTOP-I1NTMC4" time="0.019">
+<testsuite name="com.kodilla.patterns.stream.TestLambasInStreamSuite" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-09-23T18:37:38" hostname="DESKTOP-I1NTMC4" time="0.013">
   <properties/>
-  <testcase name="testAverageJava8()" classname="com.kodilla.patterns.stream.TestLambasInStreamSuite" time="0.005"/>
-  <testcase name="testSumJava8()" classname="com.kodilla.patterns.stream.TestLambasInStreamSuite" time="0.002"/>
+  <testcase name="testAverageJava8()" classname="com.kodilla.patterns.stream.TestLambasInStreamSuite" time="0.004"/>
+  <testcase name="testSumJava8()" classname="com.kodilla.patterns.stream.TestLambasInStreamSuite" time="0.001"/>
   <testcase name="testCountLength3UsingJava8()" classname="com.kodilla.patterns.stream.TestLambasInStreamSuite" time="0.001"/>
-  <testcase name="testMinJava8()" classname="com.kodilla.patterns.stream.TestLambasInStreamSuite" time="0.002"/>
-  <testcase name="testCountEmptyStringUsingJava8()" classname="com.kodilla.patterns.stream.TestLambasInStreamSuite" time="0.001"/>
-  <testcase name="testSquaresJava8()" classname="com.kodilla.patterns.stream.TestLambasInStreamSuite" time="0.001"/>
+  <testcase name="testMinJava8()" classname="com.kodilla.patterns.stream.TestLambasInStreamSuite" time="0.001"/>
+  <testcase name="testCountEmptyStringUsingJava8()" classname="com.kodilla.patterns.stream.TestLambasInStreamSuite" time="0.0"/>
+  <testcase name="testSquaresJava8()" classname="com.kodilla.patterns.stream.TestLambasInStreamSuite" time="0.0"/>
   <testcase name="testMaxJava8()" classname="com.kodilla.patterns.stream.TestLambasInStreamSuite" time="0.001"/>
-  <testcase name="testDeleteEmptyStringsUsingJava8()" classname="com.kodilla.patterns.stream.TestLambasInStreamSuite" time="0.001"/>
-  <testcase name="testMergedStringUsingJava8()" classname="com.kodilla.patterns.stream.TestLambasInStreamSuite" time="0.001"/>
+  <testcase name="testDeleteEmptyStringsUsingJava8()" classname="com.kodilla.patterns.stream.TestLambasInStreamSuite" time="0.0"/>
+  <testcase name="testMergedStringUsingJava8()" classname="com.kodilla.patterns.stream.TestLambasInStreamSuite" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
