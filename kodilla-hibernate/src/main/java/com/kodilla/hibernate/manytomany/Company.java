@@ -10,6 +10,11 @@ import java.util.*;
         query = "SELECT * FROM COMPANIES WHERE company_name LIKE :CHARS",
         resultClass = Company.class
 )
+@NamedNativeQuery(
+        name = "Company.findByFragment",
+        query = "SELECT * FROM COMPANIES WHERE company_name LIKE :ARG",
+        resultClass = Company.class
+)
 @Entity
 @Table(name = "COMPANIES")
 public class Company {
