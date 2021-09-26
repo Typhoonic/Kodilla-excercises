@@ -1,2 +1,0 @@
-com/kodilla/patterns2/KodillaTestApplication.java
- com.kodilla.patterns2.KodillaTestApplication
