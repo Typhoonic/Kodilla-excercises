@@ -20,8 +20,6 @@ public class ForumTopic implements Observable{
         notifyObservers();
     }
 
-
-
     public List<String> getMessages() {
         return messages;
     }
