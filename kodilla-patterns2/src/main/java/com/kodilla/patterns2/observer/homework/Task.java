@@ -6,9 +6,9 @@ import java.util.Deque;
 import java.util.List;
 import java.util.Queue;
 
-public class Task implements Observablee{
+public class Task implements Observable {
 
-    private final List<Observerr> observers;
+    private final List<Observer> observers;
     private final String name;
     private final Deque<String> tasks;
 
@@ -19,7 +19,7 @@ public class Task implements Observablee{
         this.name = name;
     }
 
-    public void addTask(String task){
+    public void addTask(String task) {
         tasks.offer(task);
         notifyObserver();
     }
@@ -33,18 +33,18 @@ public class Task implements Observablee{
     }
 
     @Override
-    public void registerObserver(Observerr observer) {
+    public void registerObserver(Observer observer) {
         observers.add(observer);
     }
 
     @Override
     public void notifyObserver() {
-        for(Observerr observer: observers)
+        for (Observer observer: observers)
             observer.update(this);
     }
 
     @Override
-    public void removeObserver(Observerr observer) {
+    public void removeObserver(Observer observer) {
         observers.remove(observer);
     }
 }

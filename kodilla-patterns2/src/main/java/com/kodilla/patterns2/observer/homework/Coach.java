@@ -1,6 +1,6 @@
 package com.kodilla.patterns2.observer.homework;
 
-public class Coach implements Observerr{
+public class Coach implements Observer {
 
     private final String name;
     private int count;
@@ -14,7 +14,6 @@ public class Coach implements Observerr{
         System.out.println(name + ": New task to check" + task.getName() + "\n" +
         "(total: " + task.getTasks().size() + " tasks) from: " + task.getName());
         count ++;
-
     }
 
     public String getName() {

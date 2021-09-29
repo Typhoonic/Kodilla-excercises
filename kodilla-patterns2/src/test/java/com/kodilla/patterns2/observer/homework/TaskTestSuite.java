@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class TaskTestSuite {
 
     @Test
-    void shouldReturnSizeOfTasks(){
+    void shouldReturnSizeOfTasks() {
         //Given
         Task kamilTasks = new Task("Kamil");
         Task lukaszTasks = new Task("Lukasz");
