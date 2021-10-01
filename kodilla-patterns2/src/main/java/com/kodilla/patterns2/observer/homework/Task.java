@@ -1,31 +1,35 @@
-package com.kodilla.patterns2.observer.forum;
+package com.kodilla.patterns2.observer.homework;
 
+import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.Deque;
 import java.util.List;
+import java.util.Queue;
 
-public class ForumTopic implements Observable {
+public class Task implements Observable {
 
     private final List<Observer> observers;
-    private final List<String> messages;
     private final String name;
+    private final Deque<String> tasks;
 
-    public ForumTopic(String name) {
+
+    public Task(String name) {
         observers = new ArrayList<>();
-        messages = new ArrayList<>();
+        tasks = new ArrayDeque<>();
         this.name = name;
     }
 
-    public void addPost(String post) {
-        messages.add(post);
-        notifyObservers();
-    }
-
-    public List<String> getMessages() {
-        return messages;
+    public void addTask(String task) {
+        tasks.offer(task);
+        notifyObserver();
     }
 
     public String getName() {
         return name;
+    }
+
+    public Queue<String> getTasks() {
+        return tasks;
     }
 
     @Override
@@ -34,7 +38,7 @@ public class ForumTopic implements Observable {
     }
 
     @Override
-    public void notifyObservers() {
+    public void notifyObserver() {
         for (Observer observer: observers)
             observer.update(this);
     }
