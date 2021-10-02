@@ -26,17 +26,17 @@ public class SearchFacade {
 
     public List<Company> searchCompany(final String name){
         LOGGER.info("Trying to find company...");
-        List<Company> foundCompanies = companyDao.findByFragment(name);
-        for (Company companies: foundCompanies)
-            System.out.println("Companies: " + companies.getName());
-        return foundCompanies;
+        List<Company> companies = companyDao.findByFragment(name);
+        for (Company company : companies)
+            System.out.println("Companies: " + company.getName());
+        return companies;
     }
 
     public List<Employee> searchEmployee(final String name){
         LOGGER.info("Trying to find employee...");
-        List<Employee> foundEmployees = employeeDao.findByFragment(name);
-        for (Employee employees: foundEmployees)
-            System.out.println("Employee: " + employees.getLastname());
-        return foundEmployees;
+        List<Employee> employees = employeeDao.findByFragment(name);
+        for (Employee employee: employees)
+            System.out.println("Employee: " + employee.getLastname());
+        return employees;
     }
 }
