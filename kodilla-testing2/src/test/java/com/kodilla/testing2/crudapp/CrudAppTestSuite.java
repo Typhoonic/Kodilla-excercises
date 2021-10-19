@@ -34,7 +34,14 @@ public class CrudAppTestSuite {
     void cleanUpAfterTest() {
         driver.close();
     }
-    
+
+    @Test
+    void shouldCreateTrelloCard() throws InterruptedException {
+        String taskName = createCrudAppTestTask();
+        sendTestTaskToTrello(taskName);
+        assertTrue(checkTaskExistsInTrello(taskName));
+    }
+
     private String createCrudAppTestTask() throws InterruptedException {
         String taskName = "Task number" + generator.nextInt(100000);
         String taskContent = taskName + " content";
@@ -51,12 +58,27 @@ public class CrudAppTestSuite {
         
         return taskName;
     }
-    
-    @Test
-    void shouldCreateTrelloCard() throws InterruptedException {
-        String taskName = createCrudAppTestTask();
-        sendTestTaskToTrello(taskName);
-        assertTrue(checkTaskExistsInTrello(taskName));
+
+    private void sendTestTaskToTrello(String taskName) throws InterruptedException {
+        driver.navigate().refresh();
+
+        while(!driver.findElement(By.xpath("//select[1]")).isDisplayed());
+
+        driver.findElements(
+                        By.xpath("//form[@class=\"datatable__row\"]")).stream()
+                .filter(anyForm ->
+                        anyForm.findElement(By.xpath(".//p[@class=\"datatable__field-value\"]"))
+                                .getText().equals(taskName))
+                .forEach(theForm -> {
+                    WebElement selectElement = theForm.findElement(By.xpath(".//select[1]"));
+                    Select select = new Select(selectElement);
+                    select.selectByIndex(2);
+
+                    WebElement buttonCreateCard =
+                            theForm.findElement(By.xpath(".//button[contains(@class, \"card-creation\")]"));
+                    buttonCreateCard.click();
+                });
+        Thread.sleep(5000);
     }
 
     private boolean checkTaskExistsInTrello(String taskName) throws InterruptedException {
@@ -84,27 +106,5 @@ public class CrudAppTestSuite {
         driverTrello.close();
 
         return result;
-    }
-
-    private void sendTestTaskToTrello(String taskName) throws InterruptedException {
-        driver.navigate().refresh();
-
-        while(!driver.findElement(By.xpath("//select[1]")).isDisplayed());
-
-        driver.findElements(
-                        By.xpath("//form[@class=\"datatable__row\"]")).stream()
-                .filter(anyForm ->
-                        anyForm.findElement(By.xpath(".//p[@class=\"datatable__field-value\"]"))
-                                .getText().equals(taskName))
-                .forEach(theForm -> {
-                    WebElement selectElement = theForm.findElement(By.xpath(".//select[1]"));
-                    Select select = new Select(selectElement);
-                    select.selectByIndex(2);
-
-                    WebElement buttonCreateCard =
-                            theForm.findElement(By.xpath(".//button[contains(@class, \"card-creation\")]"));
-                    buttonCreateCard.click();
-                });
-        Thread.sleep(5000);
     }
 }
